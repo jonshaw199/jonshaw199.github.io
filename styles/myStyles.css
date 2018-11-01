@@ -1,0 +1,182 @@
+.display-1 {
+    font-size: 50px;
+}
+
+.nvidia-green {
+    color: #76b900;
+}
+
+.header-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.right-header-row {
+    padding-top: 5px;
+}
+
+.mobile-icon {
+    width: 17px; 
+    height: auto;
+}
+
+.email-icon {
+    width: 27px;
+    height: auto;
+}
+
+.linkedin-icon {
+    width: 28px;
+    height: auto;
+}
+
+.head-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.school-icon {
+    width: 30px;
+    height: 19px;
+}
+
+.work-icon {
+    width: 28px;
+    height: 23px;
+}
+
+.skills-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.portfolio-icon {
+    width: 30px;
+    height: 25px;
+}
+
+.link-icon {
+    width: 22px; 
+    height: 22px;
+}
+
+.gray-container {
+    background-color: #dddddd;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gray {
+    color: slategray;
+}
+
+.fancy-circle {
+    display: block;
+    background: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    background: radial-gradient(circle at 7px 7px, #76b900, #000);
+}
+
+.circle {
+    display: block;
+    background: slategray;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+#parallelogram-black {
+    width: 15px; 
+    height: 10px; 
+    background: #76b900;
+    border: 1px solid #000000;
+    margin: auto 3px auto 0px;
+    transform: skew(-25deg); 
+    -o-transform: skew(-25deg); 
+    -moz-transform: skew(-25deg); 
+    -webkit-transform: skew(-25deg);
+}
+
+#parallelogram {
+    width: 15px; 
+    height: 10px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    margin: auto 3px auto 0px;
+    transform: skew(-25deg); 
+    -o-transform: skew(-25deg); 
+    -moz-transform: skew(-25deg); 
+    -webkit-transform: skew(-25deg);
+}
+
+<!-- ******************* Breakpoints ******************* -->
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .display-1 {
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .display-1 {
+        font-size: 70px;
+    }
+
+    .right-header-row {
+        padding-top: 10px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .display-1 {
+        font-size: 85px;
+    }
+
+    .mobile-icon {
+        width: 20px; 
+        height: auto;
+    }
+
+    .email-icon {
+        width: 33px;
+        height: auto;
+    }
+
+    .linkedin-icon {
+        width: 32px;
+        height: auto;
+    }
+}
+
+.test {
+    background-color: yellow;
+}
