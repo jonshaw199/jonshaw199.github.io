@@ -114,6 +114,18 @@ hr {
     -webkit-transform: skew(-25deg);
 }
 
+.parallelogram {
+    width: 15px; 
+    height: 10px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    margin: auto 3px auto 0px;
+    transform: skew(-25deg); 
+    -o-transform: skew(-25deg); 
+    -moz-transform: skew(-25deg); 
+    -webkit-transform: skew(-25deg);
+}
+
 #parallelogram {
     width: 15px; 
     height: 10px;
