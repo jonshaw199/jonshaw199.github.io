@@ -1,5 +1,5 @@
 var databaseAsString;
-$.getJSON("https://github.com/jonshaw199/jonshaw199.github.io/blob/master/json/proficiencies.json", function (data) {
+$.getJSON("https://jonshaw199.github.io/json/proficiencies.json", function (data) {
     databaseAsString = JSON.stringify(data);
 });
 
