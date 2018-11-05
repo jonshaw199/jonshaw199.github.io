@@ -26,7 +26,7 @@ var proficiencies = `
         "title":"Agile Development","level":8,"description":"2 years experience with working in a group using Agile methodologies, specifically Extreme Programming and Scrum."
     },
     {
-        "title":"JavaScript","level":6,"description":"1 year experience with Javascript for developing dynamic and interactive webpages."
+        "title":"JavaScript","level":7,"description":"1 year experience with Javascript for developing dynamic and interactive webpages."
     },
     {
         "title":"Java","level":8,"description":"4 years experience with object-oriented programming using Java for client-server applications, 2D/3D video games, and more."
