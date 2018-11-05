@@ -6,7 +6,6 @@ back_end
 front_end
 design
 general
-
 */
 
 var proficiencies = `
