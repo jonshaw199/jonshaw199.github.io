@@ -9,7 +9,7 @@ var databaseAsString;
 $.ajax({
 dataType: "json",
 async: false, // Makes sure to wait for load
-url: "proficiencies.json", //  https://www.dropbox.com/s/fmw63i4v7dtnx6t/package.json
+url: "https://jonshaw199.github.io/json/proficiencies.json", //  https://www.dropbox.com/s/fmw63i4v7dtnx6t/package.json
 'success': function (data) {
     databaseAsString = JSON.stringify(data);
 }
