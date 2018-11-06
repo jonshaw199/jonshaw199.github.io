@@ -1,30 +1,51 @@
 var profs_db = TAFFY(proficiencies);
+var temp_db = TAFFY();
 
-profs_db.sort("level");
-var i = 12;
-profs_db().each(function (r) {
-    profs_db(r).update({id:i});
-    i--;
-});
+populateTempDb('general');
+updateProfs();
 
-var profCounter;
-for(profCounter = 1; profCounter < 13; profCounter++) {
-    var title = "prof-" + profCounter + "-title";
-    var level = "prof-" + profCounter + "-shape";
-    var desc = "prof-" + profCounter + "-description";
-    var titles = document.getElementsByClassName(title);
-    
-    var i;
-    for (i = 0; i < titles.length; i++) {
-        titles[i].innerHTML = profs_db({id:profCounter}).first().title;
+function populateTempDb(c1, c2, c3, c4, c5) {
+    temp_db().remove();
+    profs_db({tags:{has: [c1,c2, c3, c4, c5]}}).each(function (r) {
+        temp_db.insert(r);
+    });
+    temp_db.sort("level");
+}
+
+function updateProfs() {
+    var i = 12;
+    temp_db().each(function (r) {
+        temp_db(r).update({id:i});
+        i--;
+    });
+
+    var profCounter;
+    for(profCounter = 1; profCounter < 13; profCounter++) {
+        var title = "prof-" + profCounter + "-title";
+        var level = "prof-" + profCounter + "-shape";
+        var desc = "prof-" + profCounter + "-description";
+        var titles = document.getElementsByClassName(title);
+
+        var i;
+        for (i = 0; i < titles.length; i++) {
+            titles[i].innerHTML = temp_db({id:profCounter}).first().title;
+        }
+        var progressBarShapes = document.getElementsByClassName(level);
+        var j = temp_db({id:profCounter}).first().level;
+        for (i = 0; i < j; i++) {
+            progressBarShapes[i].style.backgroundColor = "#76b900";
+        }
+        for(i = 10; i < j + 10; i++) {
+            progressBarShapes[i].style.backgroundColor = "#76b900";
+        }
+        document.getElementById(desc).innerHTML = temp_db({id:profCounter}).first().description;
     }
-    var progressBarShapes = document.getElementsByClassName(level);
-    var j = profs_db({id:profCounter}).first().level;
-    for (i = 0; i < j; i++) {
-        progressBarShapes[i].style.backgroundColor = "#76b900";
+}
+
+function toggle() {
+    if ($("#skills-more-less").attr('aria-expanded') === "true") {
+        $("#skills-more-less").text('Show More');
+    } else {
+        $("#skills-more-less").text('Show Less');
     }
-    for(i = 10; i < j + 10; i++) {
-        progressBarShapes[i].style.backgroundColor = "#76b900";
-    }
-    document.getElementById(desc).innerHTML = profs_db({id:profCounter}).first().description;
 }
