@@ -17,7 +17,7 @@ var proficiencies = `
         "title":"HTML/CSS/Bootstrap","level":8,"description":"3 years experience with developing modern websites using HTML5 and CSS, often in combination with the Bootstrap framework.","tags":["general"]
     },
     {
-        "title":"Graphic Design w/ Photoshop","level":7,"description":"3 years experience with graphic design using Adobe Photoshop for software development and digital marketing purposes.","tags":["general"]
+        "title":"Graphic Design w/ Photoshop","level":8,"description":"3 years experience with graphic design using Adobe Photoshop for software development and digital marketing purposes.","tags":["general"]
     },
     {
         "title":"Communication & Teamwork","level":10,"description":"8 years experience with working efficiently and communicating effectively with team members.","tags":["general"]
