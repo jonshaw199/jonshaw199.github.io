@@ -33,10 +33,10 @@ function updateProfs() {
         var progressBarShapes = document.getElementsByClassName(level);
         var j = temp_db({id:profCounter}).first().level;
         for (i = 0; i < j; i++) {
-            progressBarShapes[i].style.backgroundColor = "#8b0000";
+            progressBarShapes[i].style.backgroundColor = "#990000";
         }
         for(i = 10; i < j + 10; i++) {
-            progressBarShapes[i].style.backgroundColor = "#8b0000";
+            progressBarShapes[i].style.backgroundColor = "#990000";
         }
         document.getElementById(desc).innerHTML = temp_db({id:profCounter}).first().description;
     }
