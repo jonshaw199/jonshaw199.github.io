@@ -61,8 +61,8 @@
     height: 22px;
 }
 
-.gray-container {
-    background-color: #dddddd;
+.colored-container {
+    background-color: #cc9999;
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
