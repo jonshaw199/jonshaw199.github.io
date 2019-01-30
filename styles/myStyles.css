@@ -1,9 +1,28 @@
+@font-face {
+  font-family: bebasNeue;
+  src: url('../bebasNeue-regular.otf');
+}
+
+@font-face {
+	font-family: avenir;
+	src: url('../avenir-book.otf');
+}
+
+body
+{
+	font-family: avenir;
+}
+
+.headline {
+	font-family: bebasNeue;
+}
+
 .display-1 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .my-red {
-    color: #8b0000;
+    color: #cc0000;
 }
 
 .header-icon {
@@ -19,16 +38,19 @@
 .mobile-icon {
     width: 17px; 
     height: auto;
+	filter: invert(100%);
 }
 
 .email-icon {
     width: 27px;
     height: auto;
+	filter: invert(100%);
 }
 
 .linkedin-icon {
     width: 28px;
     height: auto;
+	filter: invert(100%);
 }
 
 .head-icon {
@@ -49,6 +71,7 @@
 .skills-icon {
     width: 25px;
     height: 25px;
+	filter: invert(100%);
 }
 
 .portfolio-icon {
@@ -62,11 +85,21 @@
 }
 
 .colored-container {
-    background-color: #cc9999;
-    border-radius: 5px;
+    background-color: #000000;
+    // border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 30px
+    margin-bottom: 30px; 
+	color: white;
+}
+
+.colored-heading {
+	background-color: #000000;
+    // border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px; 
+	color: white;
 }
 
 .container {
@@ -75,8 +108,10 @@
 }
 
 hr {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 33%;
+    margin-right: 33%;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .gray {
@@ -105,8 +140,8 @@ hr {
 #parallelogram-black {
     width: 15px; 
     height: 10px; 
-    background: #990000;
-    border: 1px solid #000000;
+    background: #ffffff;
+    // border: 1px solid #000000;
     margin: auto 3px auto 0px;
     transform: skew(-25deg); 
     -o-transform: skew(-25deg); 
@@ -117,8 +152,8 @@ hr {
 .parallelogram {
     width: 15px; 
     height: 10px;
-    border: 1px solid #000000;
-    background: #ffffff;
+    // border: 1px solid #000000;
+    background: #666666;
     margin: auto 3px auto 0px;
     transform: skew(-25deg); 
     -o-transform: skew(-25deg); 
@@ -130,7 +165,7 @@ hr {
     width: 15px; 
     height: 10px;
     border: 1px solid #000000;
-    background: #ffffff;
+    background: #666666;
     margin: auto 3px auto 0px;
     transform: skew(-25deg); 
     -o-transform: skew(-25deg); 
@@ -147,7 +182,7 @@ hr {
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
     .display-1 {
-        font-size: 55px;
+        font-size: 60px;
     }
 
     p {
@@ -159,7 +194,7 @@ hr {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .display-1 {
-        font-size: 70px;
+        font-size: 65px;
     }
 
     .right-header-row {
@@ -170,7 +205,7 @@ hr {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     .display-1 {
-        font-size: 85px;
+        font-size: 70px;
     }
 
     .mobile-icon {
