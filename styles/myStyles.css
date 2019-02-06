@@ -97,6 +97,24 @@ html, body {
     height: 22px;
 }
 
+.fb-nav-icon {
+	filter: invert(100%);
+	width: 27px;
+	height: 27px;
+}
+
+.insta-nav-icon {
+	filter: invert(100%);
+	width: 25px;
+	height: 25px;
+}
+
+.linkedin-nav-icon {
+	filter: invert(100%);
+	width: 27px;
+	height: 27px;
+}
+
 .colored-container {
     background-color: #000000;
     // border-radius: 5px;
@@ -296,8 +314,8 @@ hr {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 425px;
-  height: 425px;
+  width: 350px;
+  height: 350px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -344,8 +362,8 @@ hr {
 }
 
 .flip-card-inner img {
-	width: 425px;
-	height: 425px;
+	width: 350px;
+	height: 350px;
 }
 
 #contact {
