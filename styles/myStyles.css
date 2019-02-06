@@ -287,7 +287,6 @@ hr {
   width: 425px;
   height: 425px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  
 }
 
 /* This container is needed to position the front and back side */
@@ -345,7 +344,7 @@ hr {
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
+@media (min-width: 544px) {
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
