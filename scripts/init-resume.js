@@ -2,13 +2,10 @@ var profs_db = TAFFY(proficiencies);
 var temp_db = TAFFY();
 
 /************************************************************************************************/
-$(document).ready(function(){
-	fillInPersonalStatement();
-	fillInSkills();
-	fillInEducation();
-	fillInWorkHistory();
-	$(".live-tile").liveTile();
-});
+fillInPersonalStatement();
+fillInSkills();
+fillInEducation();
+fillInWorkHistory();
 /************************************************************************************************/
 
 function fillInPersonalStatement() {

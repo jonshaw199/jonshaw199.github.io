@@ -8,6 +8,36 @@ design
 general
 */
 
+var personalStatement = "A passionate and hard-working designer and developer with a uniquely diverse skillset. Seeking a challenging and varied position to apply my knowledge and improve upon my skills.";
+
+var sacState = {
+	title: "California State University, Sacramento",
+	dateRange: "2015 - 2017",
+	degree: "B.S. in Computer Science",
+	summary: "Notable coursework included parallel programming with GPUs, data structures and algorithm analysis, object-oriented programming, database management systems, and advanced computer graphics."
+};
+
+var sierra = {
+	title: "Sierra College",
+	dateRange: "2011 - 2015",
+	degree: "A.S. in Computer Science",
+	summary: "Notable coursework included Java programming, C/C++ programming, graphic design, advanced mathematics, discrete structures, game design/development, and web design/development."
+};
+
+var fpc = {
+	title: "Designer & Developer",
+	dateRange: "2018 - 2019",
+	company: "Firearms Policy Coalition, Sacramento, CA",
+	summary: "While working for FPC, a 501(c)(3) pro-2nd Amendment group, I created captivating webpages, emails, and social media posts, and I also designed graphics for those and other purposes."
+};
+
+var irt = {
+	title: "Data Center Assistant",
+	dateRange: "2016 - 2018",
+	company: "California State University, Sacramento",
+	summary: "While working as a student assistant at Sacramento State, I not only repaired, configured, installed, and removed various data center equipment, but also wrote technical documentation, handled data backups, and performed general upkeep."
+};
+
 var proficiencies = `
 [
     {
