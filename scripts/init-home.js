@@ -21,4 +21,10 @@ $(document).ready(function(){
       });
     } // End if
   });
+  
+  window.addEventListener("scroll", loseFocus());
+  
+  function loseFocus() {
+	$('.flip-card:focus').blur();
+  }
 });
