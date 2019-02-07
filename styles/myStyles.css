@@ -217,6 +217,83 @@ hr {
 	border-color: #cc0000;
 }
 
+.full-bg-gray {
+	width: 100%; 
+	height: 100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#home-banner-text {
+	width: 50%;
+	max-width: 1000px;
+	height: auto;
+}
+
+#home-banner-text-medium {
+	width: 50%;
+	height: auto;
+}
+
+#home-banner-text-small {
+	width: 80%;
+	height: auto;
+}
+
+.half-height-flex {
+	width: 100%;
+	height: 50%;
+}
+
+.banner-top-flex {
+	width: 100%;
+	height: 75%;
+}
+
+.banner-top-flex-medium {
+	width: 100%;
+	height: 55%;
+}
+
+.banner-top-flex-wide {
+	width: 100%;
+	height: 60%;
+}
+
+.banner-bottom-flex {
+	width: 100%;
+	height: 25%;
+}
+
+.banner-bottom-flex-medium {
+	width: 100%;
+	height: 45%
+}
+
+.banner-bottom-flex-wide {
+	width: 100%;
+	height: 30%;
+}
+
+#it {
+	position:absolute;
+	z-index:3;
+	right:0;
+	bottom:0;
+	left:0;
+	width:100%;
+	min-height:30px;
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
 #home-banner-wide {
 	width: 100%; 
 	height: 100%;
@@ -254,18 +331,6 @@ hr {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	text-align: center;
-}
-
-#banner2 {
-	//width: 100%;
-	//height: 100%;
-	background-image: url('../images/banner2.jpg');
-	background-repeat: no-repeat;
-	//background-position: top center;
-	background-size: cover;
-	//-webkit-background-size: cover;
-	//-moz-background-size: cover;
-	//-o-background-size: cover;
 }
 
 .down-text {
