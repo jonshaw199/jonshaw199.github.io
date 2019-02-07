@@ -21,12 +21,4 @@ $(document).ready(function(){
       });
     } // End if
   });
-  
-  window.addEventListener("resize", myFunction);
-  var x = 0;
 });
-
-var start = Date.now();
-setInterval(function() {
-    console.log(document.documentElement.clientWidth);
-}, 1000); // update about every second
