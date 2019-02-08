@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: bebasNeue;
   src: url('../bebasNeue-regular.otf');
@@ -14,16 +15,17 @@ body
 
 }
 
+.headline {
+	font-family: bebasNeue;
+}
+*/
+
 html, body {
 	height: 100%;
 }
 
-.headline {
-	font-family: bebasNeue;
-}
-
 .display-1 {
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .home-head {
@@ -391,14 +393,12 @@ hr {
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
-
+	
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    .display-1 {
-        font-size: 60px;
-    }
+    
 
     p {
         font-size: 18px;
@@ -409,7 +409,7 @@ hr {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .display-1 {
-        font-size: 65px;
+        font-size: 60px;
     }
 
     .right-header-row {
