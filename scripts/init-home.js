@@ -19,6 +19,7 @@ $(document).ready(function(){
 			});
 		} // End if
 	});
+	
 	var flipCards = document.querySelectorAll(".flip-card");
 
 	for (var i = 0; i < flipCards.length; i++) {
@@ -28,6 +29,7 @@ $(document).ready(function(){
 			//this.style.msTransform     = 'rotate('+180+'deg)'; 
 			//this.style.oTransform      = 'rotate('+180+'deg)'; 
 			//this.style.transform       = 'rotate('+180+'deg)';
+			event.preventDefault();
 			$(this).toggleClass("hovered");
 		}, false);
 	}
