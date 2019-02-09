@@ -389,6 +389,18 @@ hr {
 	height: auto;
 }
 
+#nav-logo {
+	transition: all .3s;
+}
+
+.shrunk {
+	transform: scale(.9);
+}
+
+.enlarged {
+	transform: scale(1);
+}
+
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */

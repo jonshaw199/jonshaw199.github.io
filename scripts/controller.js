@@ -8,3 +8,15 @@ $(document).ready(function(){
 		$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
 	});
 });
+
+$(function () {
+    $(document).on('scroll', function () {
+		if ($(this).scrollTop() == 0) {
+			$('#nav-logo').removeClass('shrunk');
+			$('#nav-logo').addClass('enlarged');
+		} else {
+			$('#nav-logo').removeClass('enlarged');
+			$('#nav-logo').addClass('shrunk');
+		}
+    });
+});
