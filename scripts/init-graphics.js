@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var folder = "https://jonshaw199.github.io/images";
+	var folder = "images/";
 
 	$.ajax({
 		url : folder,
