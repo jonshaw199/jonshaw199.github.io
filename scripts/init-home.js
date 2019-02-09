@@ -23,7 +23,7 @@ $(document).ready(function(){
 	var flipCards = document.querySelectorAll(".flip-card");
 
 	for (var i = 0; i < flipCards.length; i++) {
-		flipCards[i].addEventListener('touchstart', function() {
+		flipCards[i].addEventListener('click', function() {
 			//this.style.webkitTransform = 'rotate('+180+'deg)'; 
 			//this.style.mozTransform    = 'rotate('+180+'deg)'; 
 			//this.style.msTransform     = 'rotate('+180+'deg)'; 
