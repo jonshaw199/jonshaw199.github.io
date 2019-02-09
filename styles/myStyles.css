@@ -401,6 +401,14 @@ hr {
 	transform: scale(1);
 }
 
+.grid {
+	margin: 0 auto;
+}
+
+.grid-item { 
+	width: 200px;
+}
+
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */
