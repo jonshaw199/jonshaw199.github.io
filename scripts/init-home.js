@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	window.addEventListener('scroll', loseFocus());
 	$('.smooth').on('click', function() {
 		// Make sure this.hash has a value before overriding default behavior
 		if (this.hash !== "") {
@@ -23,7 +22,7 @@ $(document).ready(function(){
 	var flipCards = document.querySelectorAll(".flip-card");
 
 	for (var i = 0; i < flipCards.length; i++) {
-		flipCards[i].addEventListener('click', function() {
+		flipCards[i].addEventListener('touchstart', function() {
 			//this.style.webkitTransform = 'rotate('+180+'deg)'; 
 			//this.style.mozTransform    = 'rotate('+180+'deg)'; 
 			//this.style.msTransform     = 'rotate('+180+'deg)'; 
@@ -33,7 +32,3 @@ $(document).ready(function(){
 		}, false);
 	}
 });
-
-function loseFocus() {
-	$('.hovered').blur();
-}
