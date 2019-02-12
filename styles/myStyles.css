@@ -226,6 +226,7 @@ hr {
 	background-image: url('../images/the-banner.jpg');
 	background-repeat: no-repeat;
 	background-position: center left;
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 }
