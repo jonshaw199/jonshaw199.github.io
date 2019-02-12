@@ -6,7 +6,7 @@ $(document).ready(function(){
 		success: function (data) {
 			$(data).find("a").attr("href", function (i, val) {
 				if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-					$("#tile-grid").append( "<div class=\"grid-item\"><img src='"+ folder + val + "'></div>" );
+					$("#tile-grid").append( "<div class=\"grid-item\"><img class=\"grid-image\" src='"+ folder + val + "'></div>" );
 				} 
 			});
 		}

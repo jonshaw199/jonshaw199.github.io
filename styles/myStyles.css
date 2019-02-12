@@ -318,8 +318,8 @@ hr {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 400px;
-  height: 400px;
+  width: 325px;
+  height: 325px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -407,18 +407,22 @@ hr {
 
 .grid-item { 
 	width: 200px;
+	float: left;
+}
+
+.grid-image {
+	margin: 5px;
 }
 
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
+@media (min-width: 576px) {
 	
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    
 
     p {
         font-size: 18px;
@@ -434,7 +438,7 @@ hr {
 
     .right-header-row {
         padding-top: 10px;
-    
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -457,10 +461,4 @@ hr {
         width: 32px;
         height: auto;
     }
-	.flip-card {
-	  background-color: transparent;
-	  width: 350px;
-	  height: 350px;
-	  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-	}
 }
