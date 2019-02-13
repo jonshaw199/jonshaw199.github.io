@@ -37,4 +37,10 @@ $(document).ready(function(){
 			$(this).toggleClass("hovered");
 		}, false);
 	}
+	/*
+    $(document).on('scroll', function () {
+		inView.is(document.querySelector('#first-card'));
+		$('#first-card').toggleClass("hovered");
+	});
+	*/
 });

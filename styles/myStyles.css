@@ -375,10 +375,6 @@ hr {
 	height: 100%;
 }
 
-#pitch {
-	
-}
-
 #contact {
 	background-color: #333333;
 	color: white;
@@ -407,12 +403,10 @@ hr {
 }
 
 .grid-item { 
-	width: 200px;
-	float: left;
-}
-
-.grid-image {
-	margin: 5px;
+	width: 375px;
+	height: auto;
+	margin: 2px;
+	//float: left;
 }
 
 <!-- ******************* Breakpoints ******************* -->
