@@ -97,8 +97,8 @@ body
 
 .fb-nav-icon {
 	filter: invert(100%);
-	width: 27px;
-	height: 27px;
+	width: 29px;
+	height: 29px;
 }
 
 .insta-nav-icon {
@@ -375,7 +375,7 @@ hr {
 	height: 100%;
 }
 
-#contact {
+#contact, #pitch {
 	background-color: #333333;
 	color: white;
 }
@@ -401,12 +401,24 @@ hr {
 .grid {
 	margin: 0 auto;
 }
-
+/*
 .grid-item { 
-	width: 375px;
+	width: 350px;
 	height: auto;
 	margin: 2px;
 	//float: left;
+}
+*/
+
+.grid-sizer,
+.grid-item {
+	width: 100%;
+	height: auto;
+	padding: 7px;
+}
+
+.nav-item {
+	font-size: 18px;
 }
 
 <!-- ******************* Breakpoints ******************* -->
@@ -434,6 +446,18 @@ hr {
     .right-header-row {
         padding-top: 10px;
     }
+	/*
+	.grid-item { 
+		width: 500px;
+		height: auto;
+		margin: 2px;
+		//float: left;
+	}
+	*/
+	.grid-sizer,
+	.grid-item { 
+		width: 50%;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -456,4 +480,8 @@ hr {
         width: 32px;
         height: auto;
     }
+	.grid-sizer,
+	.grid-item { 
+		width: 33.3333333333333%;
+	}
 }
