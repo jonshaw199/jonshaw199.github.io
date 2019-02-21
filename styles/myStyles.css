@@ -123,20 +123,20 @@ h2, h3 {
 
 .fb-nav-icon {
 	filter: invert(100%);
-	width: 29px;
-	height: 29px;
+	width: 26px;
+	height: 26px;
 }
 
 .insta-nav-icon {
 	filter: invert(100%);
-	width: 25px;
-	height: 25px;
+	width: 22px;
+	height: 22px;
 }
 
 .linkedin-nav-icon {
 	filter: invert(100%);
-	width: 27px;
-	height: 27px;
+	width: 25px;
+	height: 25px;
 }
 
 .colored-container {
@@ -244,8 +244,8 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a:focus .caret{
-	transform:rotate(-90deg);
-	transition:all 0.3s ease-in-out; /*for smoothness*/
+	transform: rotate(-90deg);
+	transition: all 0.3s ease-in-out; /*for smoothness*/
 }
 
 .banner {
@@ -337,7 +337,7 @@ hr {
 }
 
 .border {
-	border-width: 10px !important;
+	border-width: 2px !important;
 	border-style: solid !important;
 	border-color: red !important;	
 }
@@ -363,7 +363,7 @@ hr {
 
 /* Do a horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
-	transform: rotateY(180deg);
+	//transform: rotateY(180deg);
 }
 
 .hovered .flip-card-inner {
@@ -414,6 +414,12 @@ hr {
 
 #nav-logo {
 	transition: all .2s;
+	width: 225px;
+	height: auto;
+}
+
+.social-media-icon-container {
+	width: 225px
 }
 
 .shrunk {
