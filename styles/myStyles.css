@@ -18,7 +18,22 @@ body
 .headline {
 	font-family: bebasNeue;
 }
+
+
+h1, h2, h3, display-1, headline {
+	font-family: 'Anton' !important;
+}
+
 */
+
+h1 {
+	font-family: 'Oswald' !important;
+	font-size: 50px;
+}
+
+h2, h3 {
+	font-family: 'Oswald' !important;
+}
 
 .display-1 {
     font-size: 45px;
@@ -432,6 +447,10 @@ hr {
 	font-size: 18px;
 }
 
+.main-home-text {
+	font-size: 30px
+}
+
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */
@@ -450,6 +469,10 @@ hr {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+	h1 {
+		font-size: 60px;
+	}
+
     .display-1 {
         font-size: 60px;
     }
@@ -457,14 +480,7 @@ hr {
     .right-header-row {
         padding-top: 10px;
     }
-	/*
-	.grid-item { 
-		width: 500px;
-		height: auto;
-		margin: 2px;
-		//float: left;
-	}
-	*/
+	
 	.grid-sizer,
 	.grid-item { 
 		width: 50%;
@@ -473,6 +489,10 @@ hr {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
+	h1 {
+		font-size: 70px;
+	}
+	
     .display-1 {
         font-size: 70px;
     }
