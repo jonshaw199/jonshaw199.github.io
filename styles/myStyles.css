@@ -363,7 +363,7 @@ hr {
 
 /* Do a horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
-	//transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .hovered .flip-card-inner {
