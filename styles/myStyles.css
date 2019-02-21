@@ -36,6 +36,17 @@ body
     color: #cc0000;
 }
 
+.red-link {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.red-link:hover {
+	color: #cc0000;
+	text-decoration: underline;
+	text-decoration-color: #cc0000;
+}
+
 .header-icon {
     margin-left: auto;
     margin-right: auto;
