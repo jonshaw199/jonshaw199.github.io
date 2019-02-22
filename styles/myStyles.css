@@ -30,12 +30,16 @@ h1 {
 	font-size: 50px;
 }
 
-h1, h2, h3 {
-	font-family: 'Fjalla One' !important;
+h1, h2, h3, .nav-link {
+	font-family: 'Oswald', serif !important;
 }
 
-p, div, a, h4, h5 {
-	font-family: 'Noto Sans' !important;
+.nav-link {
+	font-size: 20px;
+}
+
+* {
+	font-family: 'Nunito', sans-serif;
 }
 
 .display-1 {
@@ -256,6 +260,9 @@ hr {
 	background-repeat: no-repeat;
 	background-position: center left;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	height: 100%;
 	width: 100%;
 }
@@ -359,7 +366,7 @@ hr {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 1.0s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -412,12 +419,13 @@ hr {
 }
 
 #nav-logo {
-	transition: all .2s;
+	transition: all .3s;
 	
 }
 
 #nav-logo-wide {
-	transition: all .2s;
+	-webkit-transition: all 0.3s;
+	transition: all .3s;
 }
 
 .navbar-brand-small {
@@ -466,12 +474,14 @@ hr {
 	padding: 7px;
 }
 
-.nav-item {
-	font-size: 18px;
+.main-home-text {
+	font-size: 30px;
+	font-weight: bolder !important;
 }
 
-.main-home-text {
-	font-size: 30px
+.main-home-text-light {
+	font-size: 30px;
+	font-weight: lighter !important;
 }
 
 .solid-nav {
@@ -482,10 +492,10 @@ hr {
 	opacity: 0.85;
 }
 
-nav.navbar{
+nav.navbar {
 	background-color: black !important;
-	-webkit-transition: all 0.1s;
-	transition: all 0.1s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .black-bg {
@@ -501,6 +511,14 @@ nav.navbar{
 .white-bg {
 	background-color: white;
 	color: black;
+}
+
+.no-transition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
 }
 
 <!-- ******************* Breakpoints ******************* -->
