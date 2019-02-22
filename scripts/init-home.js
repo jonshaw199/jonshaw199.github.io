@@ -25,17 +25,13 @@ $(document).ready(function(){
 	}
 	
 	var flipCards = document.querySelectorAll(".flip-card");
+	var cancelEvent = false;
 
 	for (var i = 0; i < flipCards.length; i++) {
-		flipCards[i].addEventListener('click', function(event) {
-			//this.style.webkitTransform = 'rotate('+180+'deg)'; 
-			//this.style.mozTransform    = 'rotate('+180+'deg)'; 
-			//this.style.msTransform     = 'rotate('+180+'deg)'; 
-			//this.style.oTransform      = 'rotate('+180+'deg)'; 
-			//this.style.transform       = 'rotate('+180+'deg)';
-			event.preventDefault();
-			$(this).toggleClass("hovered");
-		}, false);
+		flipCards[i].addEventListener("click", clickFlip);
+	}
+	for (var i = 0; i < flipCards.length; i++) {
+		//flipCards[i].addEventListener('mouseover', hoverFlip);
 	}
 	/*
     $(document).on('scroll', function () {
@@ -44,3 +40,35 @@ $(document).ready(function(){
 	});
 	*/
 });
+
+var flipEventCancelled = false;
+
+function hoverFlip() {
+	//console.log(event.toString);
+	//event.preventDefault();
+	if (! flipEventCancelled) {
+		var flipCards = document.querySelectorAll(".flip-card");
+		for (var i = 0; i < flipCards.length; i++) {
+			flipCards[i].removeEventListener("click", clickFlip);
+		}
+		flipEventCancelled = true;
+	}
+	$(this).toggleClass("hovered");
+}
+
+function clickFlip() {
+	//console.log(event.toString);
+	//event.preventDefault();
+	if (! flipEventCancelled) {
+		var flipCards = document.querySelectorAll(".flip-card");
+		for (var i = 0; i < flipCards.length; i++) {
+			flipCards[i].removeEventListener("hover", hoverFlip);
+		}
+		flipEventCancelled = true;
+	}
+	$(this).toggleClass("hovered");
+}
+
+function flip() {
+	$(this).toggleClass("hovered");
+}

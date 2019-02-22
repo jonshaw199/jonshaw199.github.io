@@ -56,6 +56,25 @@ h2, h3 {
 	text-decoration: none;
 }
 
+/* 3 bars */
+.navbar .navbar-toggler:first-child {
+	background-color: #blue;
+}
+
+.navbar .navbar-toggler:nth-child(2) {
+	background-color: #red;
+}
+
+.navbar .navbar-toggler:nth-child(3) {
+	background-color: #greed;
+}
+
+/* background */
+.navbar .navbar-toggler {
+	border-color: #fff;
+	background-color: black;
+}
+
 .red-link:hover {
 	color: #cc0000;
 	text-decoration: underline;
@@ -362,10 +381,6 @@ hr {
 }
 
 /* Do a horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-	//transform: rotateY(180deg);
-}
-
 .hovered .flip-card-inner {
 	transform: rotateY(180deg);
 }
@@ -414,19 +429,31 @@ hr {
 
 #nav-logo {
 	transition: all .2s;
+	
+}
+
+#nav-logo-wide {
+	transition: all .2s;
+}
+
+.navbar-brand {
 	width: 225px;
 	height: auto;
 }
 
-.social-media-icon-container {
+.small-sm-icon-container {
+	width: 110px;
+}
+
+.large-sm-icon-container {
 	width: 225px
 }
 
-.shrunk {
+.shrunk-logo {
 	transform: scale(.9);
 }
 
-.enlarged {
+.enlarged-logo {
 	transform: scale(1);
 }
 
@@ -491,6 +518,10 @@ hr {
 	.grid-item { 
 		width: 50%;
 	}
+	.flip-card:hover .flip-card-inner {
+		transform: rotateY(180deg);
+	}
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

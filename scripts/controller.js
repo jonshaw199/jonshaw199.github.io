@@ -13,11 +13,11 @@ $(document).ready(function(){
 $(function () {
     $(document).on('scroll', function () {
 		if ($(this).scrollTop() == 0) {
-			$('#nav-logo').removeClass('shrunk');
-			$('#nav-logo').addClass('enlarged');
+			$('#nav-logo, #nav-logo-wide').removeClass('shrunk-logo');
+			$('#nav-logo, #nav-logo-wide').addClass('enlarged-logo');
 		} else {
-			$('#nav-logo').removeClass('enlarged');
-			$('#nav-logo').addClass('shrunk');
+			$('#nav-logo, #nav-logo-wide').removeClass('enlarged-logo');
+			$('#nav-logo, #nav-logo-wide').addClass('shrunk-logo');
 		}
     });
 });
