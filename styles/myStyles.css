@@ -417,13 +417,18 @@ hr {
 	transition: all .2s;
 }
 
-.navbar-brand {
+.navbar-brand-small {
+	width: 99px;
+	height: auto;
+}
+
+.navbar-brand-wide {
 	width: 225px;
 	height: auto;
 }
 
 .small-sm-icon-container {
-	width: 110px;
+	width: 99px;
 }
 
 .large-sm-icon-container {
@@ -479,17 +484,17 @@ nav.navbar{
 	transition: all 0.1s;
 }
 
-.black {
+.black-bg {
 	background-color: black;
 	color: white;
 }
 
-.gray {
+.gray-bg {
 	background-color: #333333;
 	color: white;
 }
 
-.white {
+.white-bg {
 	background-color: white;
 	color: black;
 }
