@@ -27,12 +27,15 @@ h1, h2, h3, display-1, headline {
 */
 
 h1 {
-	font-family: 'Oswald' !important;
 	font-size: 50px;
 }
 
-h2, h3 {
-	font-family: 'Oswald' !important;
+h1, h2, h3 {
+	font-family: 'Fjalla One' !important;
+}
+
+p, div, a, h4, h5 {
+	font-family: 'Noto Sans' !important;
 }
 
 .display-1 {
@@ -447,6 +450,7 @@ hr {
 	margin: 0 auto;
 }
 /*
+.grid-item { 
 .grid-item { 
 	width: 350px;
 	height: auto;
