@@ -15,9 +15,13 @@ $(function () {
 		if ($(this).scrollTop() == 0) {
 			$('#nav-logo, #nav-logo-wide').removeClass('shrunk-logo');
 			$('#nav-logo, #nav-logo-wide').addClass('enlarged-logo');
+			$('nav').removeClass('opaque-nav');			
+			$('nav').addClass('solid-nav');
 		} else {
 			$('#nav-logo, #nav-logo-wide').removeClass('enlarged-logo');
 			$('#nav-logo, #nav-logo-wide').addClass('shrunk-logo');
+			$('nav').removeClass('solid-nav');
+			$('nav').addClass('opaque-nav');
 		}
     });
 });
