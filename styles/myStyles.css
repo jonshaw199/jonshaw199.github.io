@@ -150,12 +150,13 @@ h1, h2, h3, .nav-link {
 	height: 25px;
 }
 
-.colored-container {
+.colored-heading {
     background-color: #000000;
     // border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px; 
+	color: white;
 	color: white;
 }
 
