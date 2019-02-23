@@ -467,6 +467,7 @@ h1, h2, h3, .nav-link {
 .main-home-text {
 	font-size: 30px;
 	font-weight: bolder !important;
+	line-height: 1;
 }
 
 .main-home-text-light {
