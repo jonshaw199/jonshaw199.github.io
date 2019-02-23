@@ -169,8 +169,8 @@ h1, h2, h3, .nav-link {
 }
 
 hr {
-    margin-left: 40%;
-    margin-right: 40%;
+    //margin-left: 25vw;
+    //margin-right: 25vw;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -579,7 +579,6 @@ nav.navbar {
 	.flip-card:hover .flip-card-inner {
 		transform: rotateY(180deg);
 	}
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
