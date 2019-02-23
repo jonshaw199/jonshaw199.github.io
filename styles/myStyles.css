@@ -521,6 +521,27 @@ nav.navbar {
   transition: none !important;
 }
 
+.floating-button-large {
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	bottom: 40px;
+	right: 40px;
+}
+
+.floating-button-small {
+	position: fixed;
+	width: 66px;
+	height: 66px;
+	bottom: 25px;
+	right: 25px;
+}
+
+.print-button {
+	width: 100%;
+	height: 100%;
+}
+
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */
