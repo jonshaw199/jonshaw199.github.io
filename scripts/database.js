@@ -8,7 +8,7 @@ design
 general
 */
 
-var personalStatement = "A passionate and hard-working designer and developer with a uniquely diverse skill set. Seeking a challenging and varied position to apply my knowledge and improve upon my skills.";
+var personalStatement = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging and varied position or project to apply my knowledge and improve upon my skills.";
 
 var sacState = {
 	title: "California State University, Sacramento",
