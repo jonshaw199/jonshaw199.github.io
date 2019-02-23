@@ -10,6 +10,7 @@ fillInWorkHistory();
 
 function fillInPersonalStatement() {
 	$('.personal-statement').text(personalStatement);
+	$('.pitch-for-video').text(pitchForVideo);
 }
 
 function fillInEducation() {

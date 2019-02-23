@@ -8,7 +8,11 @@ design
 general
 */
 
-var personalStatement = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging position or project to apply my knowledge and improve upon my skills.";
+var personalStatementOld = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging position or project to apply my knowledge and improve upon my skills.";
+
+var personalStatement = "If you are looking for an experienced and multifaceted designer and/or developer then look no further! Branding, full-stack web development, social media advertising, graphic design, and copywriting are just a few of my technical strengths, but it doesn't stop there."
+
+var pitchForVideo = "Please watch this short clip right now to learn more about how I can serve YOU!"
 
 var sacState = {
 	title: "California State University, Sacramento",
