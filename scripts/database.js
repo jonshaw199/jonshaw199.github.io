@@ -18,7 +18,7 @@ var sacState = {
 	title: "California State University, Sacramento",
 	dateRange: "2015 - 2017",
 	degree: "B.S. in Computer Science",
-	summary: "Notable coursework included parallel programming with GPUs, data structures and algorithm analysis, object-oriented programming, database management systems, and advanced computer graphics."
+	summary: "Notable coursework included parallel programming with GPUs, data structure and algorithm analysis, object-oriented programming, database management systems, and advanced computer graphics."
 };
 
 var sierra = {
@@ -32,7 +32,7 @@ var fpc = {
 	title: "Designer & Developer",
 	dateRange: "2018 - 2019",
 	company: "Firearms Policy Coalition, Sacramento, CA",
-	summary: "While working for FPC, a 501(c)(3) pro-2nd Amendment group, I created captivating webpages, emails, and social media posts, and I also designed graphics for those and other purposes."
+	summary: "While working for FPC, a 501(c)(3) pro-2nd Amendment group, I created captivating web pages, emails, and social media posts, and I also designed graphics for those and other purposes."
 };
 
 var irt = {
