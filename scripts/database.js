@@ -8,7 +8,7 @@ design
 general
 */
 
-var personalStatementOld = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging position or project to apply my knowledge and improve upon my skills.";
+var oldPersonalStatement = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging position or project to apply my knowledge and improve upon my skills.";
 
 var personalStatement = "If you are looking for an experienced and multifaceted designer and/or developer then look no further!"
 

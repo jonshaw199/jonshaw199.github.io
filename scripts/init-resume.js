@@ -9,8 +9,11 @@ fillInWorkHistory();
 /************************************************************************************************/
 
 function fillInPersonalStatement() {
+	$('.old-personal-statement').text(oldPersonalStatement);
+	/*
 	$('.personal-statement').text(personalStatement);
 	$('.pitch-for-video').text(pitchForVideo);
+	*/
 }
 
 function fillInEducation() {
