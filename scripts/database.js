@@ -10,6 +10,28 @@ general
 
 var oldPersonalStatement = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging position or project to apply my knowledge and improve upon my skills.";
 
+var oldPersonalStatement2 = "If you are looking for an experienced and multifaceted designer and/or developer then look no further! My name is Jonathan Shaw and I possess a uniquely diverse skill set, a passion for development, and a willingness to learn."
+
+var areasOfFocusIntro = "Just some of the ways I can serve you include:"
+
+var areasOfFocus = [
+	{
+		title: "Web Apps",
+		description: "I'm experienced with developing full-stack web applications using such technologies as MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, and Bootstrap.",
+		keywords: ["MongoDB", "Express.js", "React", "strap", "Node.js", "Redux", "Reactstrap", "HTML5", "CSS3", "Bootstrap"]
+	},
+	{
+		title: "Desktop Apps",
+		description: "I'm extremely proficient with C, C++, and Java programming, and I can comfortably use them to develop complex and large-scale systems.",
+		keywords: ["C", "Java", "programming"]
+	},
+	{
+		title: "Graphic Design",
+		description: "I'm skilled with graphic design and digital editing using the Adobe CC, especially Photoshop and Lightroom.",
+		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
+	}
+];
+
 var personalStatement = "If you are looking for an experienced and multifaceted designer and/or developer then look no further!"
 
 var pitchForVideo = "Watch this short clip right now to learn more about how I can serve YOU!"
@@ -17,22 +39,22 @@ var pitchForVideo = "Watch this short clip right now to learn more about how I c
 var sacState = {
 	title: "California State University, Sacramento",
 	dateRange: "2015 - 2017",
-	degree: "B.S. in Computer Science",
+	degree: "Computer Science, B.S.",
 	summary: "Notable coursework included parallel programming with GPUs, data structure and algorithm analysis, object-oriented programming, database management systems, and advanced computer graphics."
 };
 
 var sierra = {
 	title: "Sierra College",
 	dateRange: "2011 - 2015",
-	degree: "A.S. in Computer Science",
+	degree: "Computer Science, A.S.",
 	summary: "Notable coursework included Java programming, C/C++ programming, graphic design, advanced mathematics, discrete structures, game design/development, and web design/development."
 };
 
 var fpc = {
-	title: "Designer & Developer",
+	title: "Digital Operations Associate",
 	dateRange: "2018 - 2019",
-	company: "Firearms Policy Coalition, Sacramento, CA",
-	summary: "While working for FPC, a 501(c)(3) pro-2nd Amendment group, I created captivating web pages, emails, and social media posts, and I also designed graphics for those and other purposes."
+	company: "FPC, Sacramento, CA",
+	summary: "While working for FPC, a 501(c)(4) civil rights advocacy group, I mainly created captivating web pages, emails, and social media posts, and I also designed graphics for those and other purposes."
 };
 
 var irt = {
@@ -45,13 +67,13 @@ var irt = {
 var proficiencies = `
 [
     {
-        "title":"UI/UX Design","level":8,"description":"3 years experience with requirements engineering, creating wireframes and UML diagrams, and designing intuitive and aesthetically pleasing interfaces.","tags":["general"]
+        "title":"UI/UX Design","level":8,"description":"3 years experience with requirements engineering, creating wireframes and UML diagrams, and designing intuitive and aesthetic interfaces.","tags":["general"]
     },
     {
-        "title":"HTML/CSS/Bootstrap","level":8,"description":"3 years experience with developing modern websites using HTML5 and CSS, often in combination with the Bootstrap framework.","tags":["general"]
+        "title":"HTML5/CSS3/Bootstrap","level":8,"description":"4 years experience with developing websites using the latest iterations of HTML and CSS, often in combination with the Bootstrap framework.","tags":["general"]
     },
     {
-        "title":"Graphic Design w/ Photoshop","level":8,"description":"3 years experience with graphic design using Adobe Photoshop for software development and digital marketing purposes.","tags":["general"]
+        "title":"Digital Editing & Graphic Design","level":8,"description":"3 years experience with digital editing and graphic design using Photoshop and lightroom.","tags":["general"]
     },
     {
         "title":"Communication & Teamwork","level":10,"description":"8 years experience with working efficiently and communicating effectively with team members.","tags":["general"]
@@ -60,24 +82,27 @@ var proficiencies = `
         "title":"Agile Development","level":8,"description":"2 years experience with working in a group using Agile methodologies, specifically Extreme Programming and Scrum.","tags":["general"]
     },
     {
-        "title":"JavaScript","level":7,"description":"1 year experience with Javascript for developing dynamic and interactive webpages.","tags":["general"]
+        "title":"JavaScript","level":8,"description":"3 years experience with developing full-stack web apps using Vanilla JavaScript, MongoDB, Express.js, React, Node.js, Redux, Reacstrap and more.","tags":["general"]
     },
     {
-        "title":"Java","level":8,"description":"4 years experience with object-oriented programming using Java for client-server applications, 2D/3D video games, and more.","tags":["general"]
+        "title":"Java","level":8,"description":"4 years experience with object-oriented programming using Java for client-server applications including 2D/3D video games and much more.","tags":["general"]
     },
     {
-        "title":"C/C++","level":8,"description":"4 years experience with both C and C++ programming for a variety of applications including parallel computing using a GPU.","tags":["general"]
-    },
-    {
-        "title":"Game Design & Development","level":6,"description":"1 year experience with designing/developing 2D and 3D Java-based video games from the ground up.","tags":["general"]
-    },
-    {
-        "title":"Unix","level":7,"description":"3 years experience with working in a Unix environment and 6 months experience with Bash scripting.","tags":["general"]
+        "title":"C/C++","level":8,"description":"4 years experience with both C and C++ programming for a variety of applications including parallel computing using GPUs.","tags":["general"]
     },
     {
         "title":"SQL/MySQL","level":6,"description":"6 months experience with relational database design, MySQL, and SQL.","tags":["general"]
     },
     {
-        "title":"Python","level":7,"description":"6 months experience with Python programming for a variety of applications.","tags":["general"]
+        "title":"Python","level":6,"description":"6 months experience with Python programming for a variety of applications.","tags":["general"]
     } 
 ]`;
+
+/* Removed From Proficiencies
+{
+        "title":"Game Design & Development","level":6,"description":"1 year experience with designing/developing 2D and 3D Java-based video games from the ground up.","tags":["general"]
+    },
+    {
+        "title":"Unix","level":7,"description":"3 years experience with working in a Unix environment and 6 months experience with Bash scripting.","tags":["general"]
+    },
+*/

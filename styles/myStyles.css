@@ -553,6 +553,25 @@ nav.navbar {
 	color: inherit !important;
 }
 
+.list-group-item:not(.active) {
+	background-color: white !important;
+}
+
+.list-group-item.active {
+	/*background-color: #cc0000 !important;
+	border-color: #cc0000 !important;*/
+	background-color: black !important;
+	border-color: black !important;
+}
+
+.list-group-item-action {
+	font-weight: bold !important;
+}
+
+.areas-of-focus-intro {
+	font-weight: bold !important; 
+}
+
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */

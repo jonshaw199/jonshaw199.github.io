@@ -237,9 +237,9 @@
       
     <!-- Profile -->
 	<section class="container py-5">
-		<div class="row">
+		<!--<div class="row"><!-- Comment this line out to remove video & the closing tag line below -->
 			<!---- pt-lg-2 quickfix to push text down -->
-			<!--<div class="col-md-12 col-lg-7 pt-lg-1">-->
+			<!--<div class="col-md-12 col-lg-7 pt-lg-1"><!-- Comment this line out to remove video -->
 			<div class="row">
 				<img src="images/head_icon.png" class="head-icon ml-3 mr-2 my-auto"/>
 				<h3 class="my-auto headline">
@@ -247,13 +247,34 @@
 				</h3>
 			</div>
 			<div class="container pl-4 pt-1">
-				<p class="lead old-personal-statement"></p>
+				<p class="lead old-personal-statement-2"></p><!-- Uncomment this line to remove video -->
+				<p class="lead areas-of-focus-intro py-3"></p><!-- Uncomment this line to remove video -->
 				<!--
 				<p class="lead personal-statement"></p>
 				<p class="lead pitch-for-video bold"></p>
 				-->
 			</div>
-			<!--</div>-->
+			<div class="container pl-4 pt-1">
+				<div class="row py-3">
+					<div class="col-4">
+						<!-- List group -->
+						<div class="list-group list-group-flush text-center" id="myList" role="tablist">
+						  <a class="list-group-item list-group-item-action areas-of-focus-1-title active" data-toggle="list" href="#home" role="tab"></a>
+						  <a class="list-group-item list-group-item-action areas-of-focus-2-title" data-toggle="list" href="#profile" role="tab"></a>
+						  <a class="list-group-item list-group-item-action areas-of-focus-3-title" data-toggle="list" href="#messages" role="tab"></a>
+						</div>
+					</div>
+					<div class="col-8 my-auto">
+						<div class="tab-content px-4" id="nav-tabContent">
+						  <div class="tab-pane fade show active areas-of-focus-1-description" id="home" role="tabpanel" aria-labelledby="list-home-list"></div>
+						  <div class="tab-pane fade areas-of-focus-2-description" id="profile" role="tabpanel" aria-labelledby="list-profile-list"></div>
+						  <div class="tab-pane fade areas-of-focus-3-description" id="messages" role="tabpanel" aria-labelledby="list-messages-list"></div>
+						</div>
+					</div>
+				</div>
+			<!--</div><!-- Comment this line out to remove video -->
+			</div><!-- Comment this line out to remove video -->
+			<!-- Comment this div out to remove video -->
 			<!--
 			<div class="col-md-12 col-lg-5 text-center">
 				<div class="resp-iframe-container">
@@ -261,95 +282,17 @@
 				</div>
 			</div>
 			-->
-		</div>
+		<!--</div><!-- Comment this line out to remove video -->
 	</section>
 	
-	<div class="container">
-		<hr />
-	</div>
-	
-    <!-- Education and Work Experience -->
-    <section class="container py-5">
-		<div class="row">
-			<img src="images/school_icon.png" class="school-icon ml-3 mr-2 my-auto"/>
-			<h3 class="my-auto headline">
-				Education
-			</h3>
-		</div>
-		<div class="container pl-4 py-1">
-			<div class="d-block d-sm-none py-1">
-				<h5 class="sac-state-title"></h5>
-				<h5 class="gray sac-state-date-range"></h5>
-			</div>
-			<div class="d-none d-sm-block d-md-block py-1">
-				<div class="row">
-					<h5 class="mr-2 sac-state-title"></h5>
-					<h5 class="gray sac-state-date-range"></h5>
-				</div>
-			</div>
-			<p class="sac-state-details"><span class="sac-state-degree bold"></span>; <span class="sac-state-summary"></span></p>
-		</div>
-		<div class="container pl-4">
-			<div class="d-block d-sm-none py-1">
-				<h5 class="sierra-title"></h5>
-				<h5 class="gray sierra-date-range"></h5>
-			</div>
-			<div class="d-none d-sm-block d-md-block py-1">
-				<div class="row">
-					<h5 class="mr-2 sierra-title"></h5>
-					<h5 class="gray sierra-date-range"></h5>
-				</div>
-			</div>
-			<p class="sierra-details"><span class="sierra-degree bold"></span>; <span class="sierra-summary"></span></p>
-		</div>
-	</section>
-	
-	<div class="container">
-		<hr/>
-	</div>
-	
-	<section class="container py-5">
-		<div class="row">
-			<img src="images/work_icon.png" class="work-icon ml-3 mr-2 my-auto"/>
-			<h3 class="my-auto headline">
-				Recent Work Experience
-			</h3>
-		</div>
-		<div class="container pl-4 py-1">
-			<div class="d-block d-sm-none py-1">
-				<h5 class="fpc-title"></h5>
-				<h5 class="gray fpc-date-range"></h5>
-			</div>
-			<div class="d-none d-sm-block d-md-block py-1">
-				<div class="row">
-					<h5 class="mr-2 fpc-title"></h5>
-					<h5 class="gray fpc-date-range"></h5>
-				</div>
-			</div>
-			<p><span class="fpc-company bold"></span>; <span class="fpc-summary"></span></p>
-		</div>
-		<div class="container pl-4">
-			<div class="d-block d-sm-none py-1">
-				<h5 class="irt-title"></h5>
-				<h5 class="gray irt-date-range"></h5>
-			</div>
-			<div class="d-none d-sm-block d-md-block py-1">
-				<div class="row">
-					<h5 class="mr-2 irt-title"></h5>
-					<h5 class="gray irt-date-range"></h5>
-				</div>
-			</div>
-			<p><span class="irt-company bold"></span>; <span class="irt-summary"></span></p>
-		</div>
-    </section>
-      
-    <!-- Skills -->
+	<!-- Skills --------------------------------------------------------------------------------------------------------------->
+	<!------------------------------------------------------------------------------------------------------------------------->
     <section class="black-bg py-5">
         <div class="container">
             <div class="row">
                 <img src="images/skills_icon.png" class="skills-icon ml-3 mr-2 my-auto"/>
                 <h3 class="my-auto headline">
-                    Skills
+                    Proficiencies
                 </h3>
             </div>
             <div class="row">
@@ -707,6 +650,7 @@
                                     <p id="prof-10-description"></p>
                                 </div>
                             </div>
+							<!--
                             <div class="col-md-12 col-lg-6">
                                 <div class="container pl-4">
                                     <div class="d-block d-sm-none d-md-none d-lg-block d-xl-none">
@@ -777,6 +721,7 @@
                                     <p id="prof-12-description"></p>
                                 </div>
                             </div>
+							-->
                         </div>
                     </div>
                 </div>
@@ -790,8 +735,93 @@
             </div> 
         </div>
     </section>
-      
+	
+	<!--
+	<div class="container">
+		<hr />
+	</div>
+	-->
+	
+	<!-- Work Experience -->
+	<section class="container pt-5">
+		<div class="row">
+			<img src="images/work_icon.png" class="work-icon ml-3 mr-2 my-auto"/>
+			<h3 class="my-auto headline">
+				Recent Work Experience
+			</h3>
+		</div>
+		<div class="container pl-4 py-1">
+			<div class="d-block d-sm-none py-1">
+				<h5 class="fpc-title"></h5>
+				<h5 class="gray fpc-date-range"></h5>
+			</div>
+			<div class="d-none d-sm-block d-md-block py-1">
+				<div class="row">
+					<h5 class="mr-2 fpc-title"></h5>
+					<h5 class="gray fpc-date-range"></h5>
+				</div>
+			</div>
+			<p><span class="fpc-company bold"></span>; <span class="fpc-summary"></span></p>
+		</div>
+		<div class="container pl-4">
+			<div class="d-block d-sm-none py-1">
+				<h5 class="irt-title"></h5>
+				<h5 class="gray irt-date-range"></h5>
+			</div>
+			<div class="d-none d-sm-block d-md-block py-1">
+				<div class="row">
+					<h5 class="mr-2 irt-title"></h5>
+					<h5 class="gray irt-date-range"></h5>
+				</div>
+			</div>
+			<p><span class="irt-company bold"></span>; <span class="irt-summary"></span></p>
+		</div>
+    </section>
+	
+    <!-- Education -->
+    <section class="container py-5">
+		<div class="row">
+			<img src="images/school_icon.png" class="school-icon ml-3 mr-2 my-auto"/>
+			<h3 class="my-auto headline">
+				Education
+			</h3>
+		</div>
+		<div class="container pl-4 py-1">
+			<div class="d-block d-sm-none py-1">
+				<h5 class="sac-state-degree"></h5>
+				<h5 class="gray sac-state-date-range"></h5>
+			</div>
+			<div class="d-none d-sm-block d-md-block py-1">
+				<div class="row">
+					<h5 class="mr-2 sac-state-degree"></h5>
+					<h5 class="gray sac-state-date-range"></h5>
+				</div>
+			</div>
+			<p class="sac-state-details"><span class="sac-state-title bold"></span>; <span class="sac-state-summary"></span></p>
+		</div>
+		<div class="container pl-4">
+			<div class="d-block d-sm-none py-1">
+				<h5 class="sierra-degree"></h5>
+				<h5 class="gray sierra-date-range"></h5>
+			</div>
+			<div class="d-none d-sm-block d-md-block py-1">
+				<div class="row">
+					<h5 class="mr-2 sierra-degree"></h5>
+					<h5 class="gray sierra-date-range"></h5>
+				</div>
+			</div>
+			<p class="sierra-details"><span class="sierra-title bold"></span>; <span class="sierra-summary"></span></p>
+		</div>
+	</section>
+	
+	<!--
+	<div class="container">
+		<hr/>
+	</div>
+	-->
+	
     <!-- Porfolio -->
+	<!--
     <section id="#portfolio" class="container py-5">
         <div class="row">
             <img src="images/portfolio_icon.png" class="portfolio-icon ml-3 mr-2 my-auto"/>
@@ -845,8 +875,9 @@
             </p>
         </div>
     </section>
+	-->
 	
-	<section id="print" class="container pb-5">
+	<section id="print" class="container pb-5 mb-5">
 		<hr />
 		<div class="container text-center py-1">
 			<h4>
