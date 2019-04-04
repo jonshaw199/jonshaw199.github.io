@@ -32,6 +32,8 @@ var areasOfFocus = [
 	}
 ];
 
+var areasOfFocusOutro = "I absolutely LOVE what I do, which is why I'm confident that I would be an excellent addition to your company. Feel free to contact me at your convenience to schedule an interview, or continue reading to find out more!"
+
 var personalStatement = "If you are looking for an experienced and multifaceted designer and/or developer then look no further!"
 
 var pitchForVideo = "Watch this short clip right now to learn more about how I can serve YOU!"

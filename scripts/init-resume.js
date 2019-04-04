@@ -21,6 +21,7 @@ function fillInPersonalStatement() {
 	$('.areas-of-focus-1-description').append(boldKeywords(areasOfFocus[0].description, areasOfFocus[0].keywords));
 	$('.areas-of-focus-2-description').append(boldKeywords(areasOfFocus[1].description, areasOfFocus[1].keywords));
 	$('.areas-of-focus-3-description').append(boldKeywords(areasOfFocus[2].description, areasOfFocus[2].keywords));
+	$('.areas-of-focus-outro').text(areasOfFocusOutro);
 }
 
 function boldKeywords(rawText, listOfKeywords) {

@@ -514,16 +514,16 @@ nav.navbar {
 
 .floating-button-large {
 	position: fixed;
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
 	bottom: 40px;
 	right: 40px;
 }
 
 .floating-button-small {
 	position: fixed;
-	width: 66px;
-	height: 66px;
+	width: 60px;
+	height: 60px;
 	bottom: 25px;
 	right: 25px;
 }
