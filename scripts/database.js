@@ -14,7 +14,7 @@ var oldPersonalStatement2 = "If you are looking for an experienced and multiface
 
 var areasOfFocusIntro = "Just some of the ways I can serve you include:"
 
-var areasOfFocus = [
+var areasOfFocusOld = [
 	{
 		title: "Web Apps",
 		description: "I'm experienced with developing full-stack web applications using such technologies as MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, and Bootstrap.",
@@ -28,6 +28,24 @@ var areasOfFocus = [
 	{
 		title: "Graphic Design",
 		description: "I'm skilled with graphic design and digital editing using the Adobe CC, especially Photoshop and Lightroom.",
+		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
+	}
+];
+
+var areasOfFocus = [
+	{
+		title: "Web Apps",
+		description: "Web development using MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, Bootstrap, and more",
+		keywords: ["MongoDB", "Express.js", "React", "strap", "Node.js", "Redux", "Reactstrap", "HTML5", "CSS3", "Bootstrap"]
+	},
+	{
+		title: "Desktop Apps",
+		description: "Desktop application development using C, C++, Java, and Python",
+		keywords: ["C", "Java", "programming"]
+	},
+	{
+		title: "Graphic Design",
+		description: "Graphic design and digital editing using the Adobe CC, especially Photoshop and Lightroom",
 		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
 	}
 ];

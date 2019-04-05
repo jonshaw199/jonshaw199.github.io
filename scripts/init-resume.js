@@ -15,9 +15,9 @@ function fillInPersonalStatement() {
 	$('.areas-of-focus-intro').text(areasOfFocusIntro);
 	//$('.personal-statement').text(personalStatement);
 	//$('.pitch-for-video').text(pitchForVideo);
-	$('.areas-of-focus-1-title').text(areasOfFocus[0].title);
-	$('.areas-of-focus-2-title').text(areasOfFocus[1].title);
-	$('.areas-of-focus-3-title').text(areasOfFocus[2].title);
+	//$('.areas-of-focus-1-title').text(areasOfFocus[0].title);
+	//$('.areas-of-focus-2-title').text(areasOfFocus[1].title);
+	//$('.areas-of-focus-3-title').text(areasOfFocus[2].title);
 	$('.areas-of-focus-1-description').append(boldKeywords(areasOfFocus[0].description, areasOfFocus[0].keywords));
 	$('.areas-of-focus-2-description').append(boldKeywords(areasOfFocus[1].description, areasOfFocus[1].keywords));
 	$('.areas-of-focus-3-description').append(boldKeywords(areasOfFocus[2].description, areasOfFocus[2].keywords));
@@ -37,7 +37,7 @@ function boldKeywords(rawText, listOfKeywords) {
 	//return preg_replace('/\b('.implode('|', listOfKeywords).')\b/i', '<b>$1</b>', rawText);
 	*/
 	var regExp = new RegExp("(" + listOfKeywords.join("|") + ")", 'g');
-	return "<p class=\"text-center\">" + rawText.replace(regExp, "<b>$1</b>") + "</p>";
+	return "<p>" + rawText.replace(regExp, "<b>$1</b>") + "</p>";
 }
 
 function fillInEducation() {

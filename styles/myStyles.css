@@ -572,6 +572,11 @@ nav.navbar {
 	font-weight: bold !important; 
 }
 
+.bullet-point-arrow {
+	width: 12px;
+	height: 20px;
+}
+
 <!-- ******************* Breakpoints ******************* -->
 
 /* Small devices (landscape phones, 544px and up) */
