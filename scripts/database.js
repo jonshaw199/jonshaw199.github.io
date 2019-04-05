@@ -41,7 +41,7 @@ var areasOfFocus = [
 	{
 		title: "Desktop Apps",
 		description: "Desktop application development using C, C++, Java, and Python",
-		keywords: ["C", "Java", "programming"]
+		keywords: ["C", "Java", "Python"]
 	},
 	{
 		title: "Graphic Design",
