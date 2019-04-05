@@ -93,7 +93,7 @@ var proficiencies = `
         "title":"HTML5/CSS3/Bootstrap","level":8,"description":"4 years experience with developing websites using the latest iterations of HTML and CSS, often in combination with the Bootstrap framework.","tags":["general"]
     },
     {
-        "title":"Digital Editing & Graphic Design","level":8,"description":"3 years experience with digital editing and graphic design using Photoshop and lightroom.","tags":["general"]
+        "title":"Digital Editing & Graphic Design","level":8,"description":"3 years experience with digital editing and graphic design using Photoshop and Lightroom.","tags":["general"]
     },
     {
         "title":"Communication & Teamwork","level":10,"description":"8 years experience with working efficiently and communicating effectively with team members.","tags":["general"]
