@@ -150,6 +150,12 @@ h1, h2, h3, .nav-link {
 	height: 25px;
 }
 
+.github-nav-icon {
+	width: 26px;
+	height: 26px;
+	filter: invert;
+}
+
 .colored-heading {
     background-color: #000000;
     // border-radius: 5px;
