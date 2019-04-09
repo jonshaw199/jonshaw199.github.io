@@ -108,7 +108,7 @@ var proficiencies = `
         "title":"Java","level":8,"description":"4 years experience with object-oriented programming using Java for client-server applications including 2D/3D video games and much more.","tags":["general"]
     },
     {
-        "title":"C/C++","level":8,"description":"4 years experience with both C and C++ programming for a variety of applications including parallel computing using GPUs.","tags":["general"]
+        "title":"C/C++","level":8,"description":"4 years experience with both C and C++ programming for a variety of purposes including parallel computing using GPUs.","tags":["general"]
     },
     {
         "title":"SQL/MySQL","level":6,"description":"6 months experience with relational database design, MySQL, and SQL.","tags":["general"]
