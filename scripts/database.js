@@ -74,7 +74,7 @@ var fpc = {
 	title: "Digital Operations Associate",
 	dateRange: "2018 - 2019",
 	company: "FPC, Sacramento, CA",
-	summary: "While working for FPC, a 501(c)(4) pro-2nd Amendment group, I mainly created captivating web pages, emails, and social media posts, and I also designed graphics for those and other purposes."
+	summary: "While working for FPC, a 501(c)(4) pro-2nd Amendment organization, I mainly created captivating web pages, emails, and social media posts, and I also designed graphics for those and other purposes."
 };
 
 var irt = {
