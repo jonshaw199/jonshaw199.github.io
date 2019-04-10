@@ -35,17 +35,17 @@ var areasOfFocusOld = [
 var areasOfFocus = [
 	{
 		title: "Web Apps",
-		description: "Web development using MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, Bootstrap, and more",
+		description: "Web development with MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, Bootstrap, and more",
 		keywords: ["MongoDB", "Express.js", "React", "strap", "Node.js", "Redux", "Reactstrap", "HTML5", "CSS3", "Bootstrap"]
 	},
 	{
 		title: "Desktop Apps",
-		description: "Desktop application development using C, C++, Java, and Python",
+		description: "Desktop application development with C, C++, Java, and Python",
 		keywords: ["C", "Java", "Python"]
 	},
 	{
 		title: "Graphic Design",
-		description: "Graphic design and digital editing using the Adobe CC, especially Photoshop and Lightroom",
+		description: "Graphic design and digital editing with the Adobe CC, especially Photoshop and Lightroom",
 		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
 	}
 ];
