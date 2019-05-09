@@ -17,17 +17,17 @@ var areasOfFocusIntro = "Just some of the ways I can serve you include:"
 var areasOfFocusOld = [
 	{
 		title: "Web Apps",
-		description: "Full-stack web development using JavaScript, HTML, CSS, Python, SQL, and numerous libraries/frameworks",
+		description: "I'm experienced with developing full-stack web applications using such technologies as MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, and Bootstrap.",
 		keywords: ["MongoDB", "Express.js", "React", "strap", "Node.js", "Redux", "Reactstrap", "HTML5", "CSS3", "Bootstrap"]
 	},
 	{
 		title: "Desktop Apps",
-		description: "Desktop application and embedded system development using C, C++, Java, and Python",
+		description: "I'm extremely proficient with C, C++, and Java programming, and I can comfortably use them to develop complex and large-scale systems.",
 		keywords: ["C", "Java", "programming"]
 	},
 	{
 		title: "Graphic Design",
-		description: "Graphic design and digital editing using Adobe CC",
+		description: "I'm skilled with graphic design and digital editing using the Adobe CC, especially Photoshop and Lightroom.",
 		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
 	}
 ];
@@ -35,17 +35,17 @@ var areasOfFocusOld = [
 var areasOfFocus = [
 	{
 		title: "Web Apps",
-		description: "Web development with MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, Bootstrap, and more",
-		keywords: ["MongoDB", "Express.js", "React", "strap", "Node.js", "Redux", "Reactstrap", "HTML5", "CSS3", "Bootstrap"]
+		description: "Full-stack web development using JavaScript, HTML, CSS, Python, SQL, and numerous libraries/frameworks",
+		keywords: ["JavaScript", "HTML", "CSS", "Python", "SQL"]
 	},
 	{
 		title: "Desktop Apps",
-		description: "Desktop application development with C, C++, Java, and Python",
+		description: "Desktop application and embedded system development using C, C++, Java, and Python",
 		keywords: ["C", "Java", "Python"]
 	},
 	{
 		title: "Graphic Design",
-		description: "Graphic design and digital editing with the Adobe CC, especially Photoshop and Lightroom",
+		description: "Graphic design and digital editing using Adobe CC, especially Photoshop and Lightroom",
 		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
 	}
 ];
