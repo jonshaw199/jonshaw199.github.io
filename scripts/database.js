@@ -111,10 +111,10 @@ var proficiencies = `
         "title":"C/C++","level":8,"description":"4 years experience with both C and C++ programming for a variety of purposes including parallel computing using GPUs.","tags":["general"]
     },
     {
-        "title":"SQL/MySQL","level":6,"description":"6 months experience with relational database design, MySQL, and SQL.","tags":["general"]
+        "title":"SQL/MySQL","level":7,"description":"6 months experience with relational database design, MySQL, and SQL.","tags":["general"]
     },
     {
-        "title":"Python","level":6,"description":"6 months experience with Python programming for a variety of applications.","tags":["general"]
+        "title":"Python","level":7,"description":"6 months experience with Python programming for a variety of applications.","tags":["general"]
     } 
 ]`;
 
