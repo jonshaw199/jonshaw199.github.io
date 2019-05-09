@@ -10,24 +10,24 @@ general
 
 var oldPersonalStatement = "I am a passionate and hard-working designer and developer with a uniquely diverse skill set. I am seeking a challenging position or project to apply my knowledge and improve upon my skills.";
 
-var oldPersonalStatement2 = "If you are looking for an experienced and multifaceted designer and/or developer then look no further! My name is Jonathan Shaw and I possess a uniquely diverse skill set, a passion for development, and a willingness to learn."
+var oldPersonalStatement2 = "If you are looking for an experienced and multifaceted designer and/or developer then look no further! My name is Jonathan Shaw and I possess a uniquely diverse skill set, a passion for the field, and a willingness to learn."
 
 var areasOfFocusIntro = "Just some of the ways I can serve you include:"
 
 var areasOfFocusOld = [
 	{
 		title: "Web Apps",
-		description: "I'm experienced with developing full-stack web applications using such technologies as MongoDB, Express.js, React, Node.js, Redux, Reactstrap, HTML5, CSS3, and Bootstrap.",
+		description: "Full-stack web development using JavaScript, HTML, CSS, Python, SQL, and numerous libraries/frameworks",
 		keywords: ["MongoDB", "Express.js", "React", "strap", "Node.js", "Redux", "Reactstrap", "HTML5", "CSS3", "Bootstrap"]
 	},
 	{
 		title: "Desktop Apps",
-		description: "I'm extremely proficient with C, C++, and Java programming, and I can comfortably use them to develop complex and large-scale systems.",
+		description: "Desktop application and embedded system development using C, C++, Java, and Python",
 		keywords: ["C", "Java", "programming"]
 	},
 	{
 		title: "Graphic Design",
-		description: "I'm skilled with graphic design and digital editing using the Adobe CC, especially Photoshop and Lightroom.",
+		description: "Graphic design and digital editing using Adobe CC",
 		keywords: ["Adobe", "CC", "Photoshop", "Lightroom"]
 	}
 ];
