@@ -114,7 +114,7 @@ var proficiencies = `
         "title":"SQL/MySQL","level":7,"description":"6 months experience with relational database design, MySQL, and SQL.","tags":["general"]
     },
     {
-        "title":"Python","level":7,"description":"6 months experience with Python programming for a variety of applications.","tags":["general"]
+        "title":"Python","level":7,"description":"1 year experience with Python programming for a variety of applications.","tags":["general"]
     } 
 ]`;
 
