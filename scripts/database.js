@@ -22,7 +22,7 @@ var rp = {
   dateRange: "2019 - Present",
   company: "Retail Pro International, LLC",
   summary:
-    "I participate in all stages of the design and development processes and work in all areas of the product. The product is built primarily with AngularJS and Delphi and supports MySQL and Oracle (embedded).",
+    "The Retail Pro Prism product is used for retail management, built primarily with AngularJS and Delphi, and supports MySQL and Oracle (embedded). I am fortunate enough to work in all areas of the product and in all stages of the design and development processes.",
 };
 
 var fpc = {
@@ -34,7 +34,7 @@ var fpc = {
 };
 
 var irt = {
-  title: "Data Center Assistant",
+  title: "Data Center Technician",
   dateRange: "2016 - 2018",
   company: "California State University, Sacramento",
   summary:
