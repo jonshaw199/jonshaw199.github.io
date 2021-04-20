@@ -30,5 +30,5 @@ var irt = {
   dateRange: "2016 - 2018",
   company: "California State University, Sacramento",
   summary:
-    "I not only repaired, configured, installed, and removed various data center equipment, but also wrote technical documentation, handled data backups, and worked efficiently in a large team.",
+    "While attending Sac State, I worked in the on-campus data center where I learned more about computer hardware and networking, as well as time management and discipline. Just some of my responsibilities included installing, configuring, and repairing equipment like servers and switches. I also wrote technical documentation, handled data backups, and worked efficiently in a large team.",
 };
