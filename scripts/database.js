@@ -1,20 +1,12 @@
 var personalStatement =
-  "Hey there, my name is Jon and I love building things! I consider myself to be a curious, adventurous, and motivated full-stack developer. I enjoy tinkering in my spare time, as well as biking, cooking, and MTG.";
+  "Hey there, my name is Jon and I love building things! I consider myself to be a curious, adventurous, and motivated full-stack developer. I enjoy tinkering in my spare time, as well as biking, cooking, and MTG. I seek to work on excellent products that are built with best practices in mind. I also hope to work for a company that adapts with the times and utilizes a relatively modern tech stack.";
 
 var sacState = {
   title: "California State University, Sacramento",
-  dateRange: "2015 - 2017",
+  dateRange: "2017",
   degree: "Computer Science, B.S.",
   summary:
-    "Notable coursework included parallel programming with GPUs, data structure and algorithm analysis, object-oriented programming, database management systems, and advanced computer graphics.",
-};
-
-var sierra = {
-  title: "Sierra College",
-  dateRange: "2011 - 2015",
-  degree: "Computer Science, A.S.",
-  summary:
-    "Notable coursework included Java programming, C/C++ programming, graphic design, advanced mathematics, discrete structures, game design/development, and web design/development.",
+    "I built library.ca.gov as a senior project with four classmates. I also studied a wide range of fascinating topics including web development, parallel programming with GPUs, machine learning, and advanced computer graphics.",
 };
 
 var rp = {
@@ -22,15 +14,15 @@ var rp = {
   dateRange: "2019 - Present",
   company: "Retail Pro International, LLC",
   summary:
-    "The Retail Pro Prism product is used for retail management, built primarily with AngularJS and Delphi, and supports MySQL and Oracle (embedded). I am fortunate enough to work in all areas of the product and in all stages of the design and development processes.",
+    "I participate in all stages of Retail Pro Prism design and development. I joined the company as an intern and was promoted to my current position within the first year. I have had the opportunity to work on many exciting features such as an inventory auto-replenishment tool, of which I was the lead back-end developer. Just some of my daily responsibilities include client-side development using Angular, server-side development with Delphi, Oracle and MySQL database administration, and Inno Setup installer development.",
 };
 
 var fpc = {
-  title: "Graphic Designer",
-  dateRange: "2018 - 2019",
+  title: "mayweldingdesign.com",
+  dateRange: "2020 - Present",
   company: "Freelance",
   summary:
-    "Through Upwork and other channels, I offered freelance graphic design with an emphasis on social media content.",
+    "I am the sole designer and developer of mayweldingdesign.com, a web application intended to draw in new customers and establish a dominant online presence for the company. The application serves that purpose well, but it also allowed me to strengthen my web development skills using modern tools and technologies like Node, Express, React, MongoDB, Heroku, and GitHub.",
 };
 
 var irt = {

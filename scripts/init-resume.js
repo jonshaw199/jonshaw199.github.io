@@ -11,10 +11,6 @@ function fillInEducation() {
   $(".sac-state-date-range").text(sacState.dateRange);
   $(".sac-state-degree").text(sacState.degree);
   $(".sac-state-summary").text(sacState.summary);
-  $(".sierra-title").text(sierra.title);
-  $(".sierra-date-range").text(sierra.dateRange);
-  $(".sierra-degree").text(sierra.degree);
-  $(".sierra-summary").text(sierra.summary);
 }
 
 function fillInWorkHistory() {
