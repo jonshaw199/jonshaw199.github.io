@@ -1,5 +1,5 @@
 var personalStatement =
-  "Hey there, my name is Jon and I love building things! I consider myself to be a curious, adventurous, and motivated full-stack developer. I enjoy tinkering in my spare time, as well as biking, cooking, and MTG. I seek to work on excellent products that are built with best practices in mind. I also hope to work for a company that adapts with the times and utilizes a relatively modern tech stack.";
+  "Hey there, my name is Jon and I love building things! I consider myself to be a curious, adventurous, and motivated full-stack developer. I enjoy tinkering in my spare time, as well as biking, cooking, and MTG. My goal is to work on excellent products that are built with best practices in mind. I also hope to work for a company that adapts with the times and utilizes a relatively modern tech stack.";
 
 var sacState = {
   title: "California State University, Sacramento",
