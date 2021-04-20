@@ -3,7 +3,7 @@ var personalStatement =
 
 var sacState = {
   title: "California State University, Sacramento",
-  dateRange: "2017",
+  dateRange: "2012 - 2017",
   degree: "Computer Science, B.S.",
   summary:
     "I built library.ca.gov as a senior project with four classmates. I also studied a wide range of fascinating topics including web development, parallel programming with GPUs, machine learning, and advanced computer graphics.",
@@ -30,5 +30,5 @@ var irt = {
   dateRange: "2016 - 2018",
   company: "California State University, Sacramento",
   summary:
-    "I not only repaired, configured, installed, and removed various data center equipment, but also wrote technical documentation, handled data backups, and performed general upkeep.",
+    "I not only repaired, configured, installed, and removed various data center equipment, but also wrote technical documentation, handled data backups, and worked efficiently in a large team.",
 };
