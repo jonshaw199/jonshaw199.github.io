@@ -1,5 +1,5 @@
 var personalStatement =
-  "Hey there, my name is Jon and I love building things! I consider myself to be a curious, adventurous, and motivated full-stack developer. I enjoy tinkering in my spare time, as well as biking, cooking, and MTG. My goal is to work on excellent products that are built with best practices in mind. I also hope to work for a company that adapts with the times and utilizes a relatively modern tech stack.";
+  "Hey there, my name is Jon and I love building things! I consider myself to be a curious, adventurous, and motivated full-stack developer. I enjoy tinkering in my spare time, as well as biking, cooking, and MTG. I am looking for new opportunities to work on exciting projects with other passionate developers. I also hope to find a position where I can perform a wide variety of tasks and take on new challenges regularly.";
 
 var sacState = {
   title: "California State University, Sacramento",
@@ -10,19 +10,19 @@ var sacState = {
 };
 
 var rp = {
-  title: "Junior Software Engineer",
+  title: "Web Developer",
   dateRange: "2019 - Present",
   company: "Retail Pro International, LLC",
   summary:
-    "I participate in all stages of Retail Pro Prism design and development. I joined the company as an intern and was promoted to my current position within the first year. I have had the opportunity to work on many exciting features such as an inventory auto-replenishment tool, of which I was the lead back-end developer. Just some of my daily responsibilities include client-side development using Angular, server-side development with Delphi, Oracle and MySQL database administration, and Inno Setup installer development.",
+    "I single-handedly maintain the Retail Pro ordering system, the retailpro.com public-facing website, the my.retailpro.com internal site, and numerous auxiliary products. For these, I predominantly use JavaScript/HTML/CSS, PHP, and SQL Server. Before that, I participated in all stages of Prism design and development using JavaScript/Angular/HTML/CSS, Python, Delphi, and MySQL/Oracle. I joined the company as an intern and have been promoted twice in two years.",
 };
 
 var fpc = {
   title: "mayweldingdesign.com",
-  dateRange: "2020 - Present",
+  dateRange: "2020 - 2021",
   company: "Freelance",
   summary:
-    "I am the sole designer and developer of mayweldingdesign.com, a web application intended to draw in new customers and establish a dominant online presence for the company. The application serves that purpose well, but it also allowed me to strengthen my web development skills using modern tools and technologies like Node, Express, React, MongoDB, Heroku, and GitHub.",
+    "I was the sole designer and developer of mayweldingdesign.com, a web application intended to draw in new customers and establish a dominant online presence for the company. The application serves that purpose well, but it also allowed me to strengthen my web development skills using modern tools and technologies like Node, Express, React, MongoDB, Heroku, and GitHub.",
 };
 
 var irt = {
@@ -30,5 +30,5 @@ var irt = {
   dateRange: "2016 - 2018",
   company: "California State University, Sacramento",
   summary:
-    "While attending Sac State, I worked in the on-campus data center where I learned more about computer hardware and networking, as well as time management and discipline. Just some of my responsibilities included installing, configuring, and repairing equipment like servers and switches. I also wrote technical documentation, handled data backups, and worked efficiently in a large team.",
+    "While attending Sac State, I worked in the on-campus data center where I learned about computer hardware and networking, as well as time management and self-discipline. Just some of my responsibilities included installing, configuring, and repairing equipment like servers and switches. I also wrote technical documentation, handled data backups, and worked efficiently in a large team.",
 };
