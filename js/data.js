@@ -17,7 +17,7 @@ const workExperience = [
     "Retail Pro International",
     "Software Development Support",
     "Apr 2019 - Sep 2020",
-    "",
+    "Handled database administration tasks such as modeling, scripting, and tuning.",
     "https://www.retailpro.com/",
   ],
   [
