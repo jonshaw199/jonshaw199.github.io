@@ -9,7 +9,7 @@ $("#js-recent-work-experience").html(
     .reverse()
     .map(
       (job) =>
-        `<div class="work-item"><h4>${job[1]}</h4><h5 class="mb-0"><a href="${job[4]}">${job[0]}</a><span class="gray pl-2">${job[2]}</span></h5><div>${job[3]}</div></div>`
+        `<div class="work-item"><h4 class="mb-1">${job[1]}</h4><h5 class="mb-1"><a href="${job[4]}" target="_blank" class="red-link">${job[0]}</a><span class="gray pl-2">${job[2]}</span></h5><div>${job[3]}</div></div>`
     )
     .join("")
 );
