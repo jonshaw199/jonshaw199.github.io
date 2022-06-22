@@ -1,0 +1,268 @@
+h1,
+h2,
+h3,
+.nav-link {
+  font-family: "Oswald", serif !important;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.home-head {
+  font-weight: 500;
+}
+
+.home-subhead {
+  font-weight: 200;
+}
+
+.my-red {
+  color: #cc0000;
+}
+
+.red-link {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.red-link:hover {
+  color: #cc0000;
+  text-decoration: underline;
+  text-decoration-color: #cc0000;
+}
+
+.header-icon {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.mobile-icon {
+  width: 17px;
+  height: auto;
+  filter: invert(100%);
+}
+
+.email-icon {
+  width: 27px;
+  height: auto;
+  filter: invert(100%);
+}
+
+.linkedin-icon {
+  width: 28px;
+  height: auto;
+  filter: invert(100%);
+}
+
+.head-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.school-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.work-icon {
+  width: 2rem;
+  height: 1.8rem;
+}
+
+.skills-icon {
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+}
+
+.portfolio-icon {
+  width: 30px;
+  height: 25px;
+}
+
+.link-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.fb-nav-icon {
+  filter: invert(100%);
+  width: 26px;
+  height: 26px;
+}
+
+.insta-nav-icon {
+  filter: invert(100%);
+  width: 22px;
+  height: 22px;
+}
+
+.linkedin-nav-icon {
+  filter: invert(100%);
+  width: 25px;
+  height: 25px;
+}
+
+.github-nav-icon {
+  width: 26px;
+  height: 26px;
+  filter: invert(100%);
+}
+
+.colored-heading {
+  background-color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  color: white;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gray {
+  color: slategray;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:focus .caret {
+  transform: rotate(-90deg);
+  transition: all 0.3s ease-in-out; /*for smoothness*/
+}
+
+.full-page {
+  width: 100%;
+  height: 100%;
+}
+
+#nav-logo {
+  transition: all 0.3s;
+}
+
+#nav-logo-wide {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar-brand-small {
+  width: 99px;
+  height: auto;
+}
+
+.navbar-brand-wide {
+  width: 225px;
+  height: auto;
+}
+
+.large-sm-icon-container {
+  width: 225px;
+}
+
+.shrunk-logo {
+  transform: scale(0.9);
+}
+
+.enlarged-logo {
+  transform: scale(1);
+}
+
+.solid-nav {
+  opacity: 1;
+}
+
+.opaque-nav {
+  opacity: 0.93;
+}
+
+nav.navbar {
+  background-color: black !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.no-transition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+.floating-button-large {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 40px;
+}
+
+.floating-button-small {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 25px;
+}
+
+.print-button {
+  width: 100%;
+  height: 100%;
+}
+
+.bullet-point-arrow {
+  width: 12px;
+  height: 20px;
+}
+
+#main-container {
+  padding: 9px;
+}
+
+section {
+  padding: 9px;
+}
+
+.section-content {
+  padding: 18px 6px 9px 6px;
+}
+
+.education-item:not(:first-child) {
+  margin-top: 18px;
+}
+
+.personal-statement-item:not(:first-child) {
+  margin-top: 3px;
+}
+
+.work-item:not(:first-child) {
+  margin-top: 24px;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mobile-icon {
+    width: 20px;
+    height: auto;
+  }
+
+  .email-icon {
+    width: 33px;
+    height: auto;
+  }
+
+  .linkedin-icon {
+    width: 32px;
+    height: auto;
+  }
+}
