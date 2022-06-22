@@ -226,7 +226,7 @@ nav.navbar {
 }
 
 #main-container {
-  padding: 9px;
+  padding: 15px 9px;
 }
 
 section {
@@ -234,7 +234,7 @@ section {
 }
 
 .section-content {
-  padding: 18px 6px 9px 6px;
+  padding: 12px 6px 25px 6px;
 }
 
 .education-item:not(:first-child) {
