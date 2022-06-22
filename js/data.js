@@ -49,5 +49,5 @@ const education = [
     "2015 - 2017",
     "Computer Science, B.S.",
   ],
-  ["Sierra College", "2011 - 2015", "Computer Science, A.S."],
+  ["Sierra College (Rocklin)", "2011 - 2015", "Computer Science, A.S."],
 ];
