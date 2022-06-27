@@ -13,14 +13,6 @@ h3,
   font-family: "Nunito", sans-serif;
 }
 
-.home-head {
-  font-weight: 500;
-}
-
-.home-subhead {
-  font-weight: 200;
-}
-
 .my-red {
   color: #cc0000;
 }
@@ -36,30 +28,6 @@ h3,
   text-decoration-color: #cc0000;
 }
 
-.header-icon {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.mobile-icon {
-  width: 17px;
-  height: auto;
-  filter: invert(100%);
-}
-
-.email-icon {
-  width: 27px;
-  height: auto;
-  filter: invert(100%);
-}
-
-.linkedin-icon {
-  width: 28px;
-  height: auto;
-  filter: invert(100%);
-}
-
 .head-icon {
   width: 2rem;
   height: 2rem;
@@ -73,34 +41,6 @@ h3,
 .work-icon {
   width: 2rem;
   height: 1.8rem;
-}
-
-.skills-icon {
-  width: 25px;
-  height: 25px;
-  filter: invert(100%);
-}
-
-.portfolio-icon {
-  width: 30px;
-  height: 25px;
-}
-
-.link-icon {
-  width: 22px;
-  height: 22px;
-}
-
-.fb-nav-icon {
-  filter: invert(100%);
-  width: 26px;
-  height: 26px;
-}
-
-.insta-nav-icon {
-  filter: invert(100%);
-  width: 22px;
-  height: 22px;
 }
 
 .linkedin-nav-icon {
@@ -247,22 +187,4 @@ section {
 
 .work-item:not(:first-child) {
   margin-top: 24px;
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .mobile-icon {
-    width: 20px;
-    height: auto;
-  }
-
-  .email-icon {
-    width: 33px;
-    height: auto;
-  }
-
-  .linkedin-icon {
-    width: 32px;
-    height: auto;
-  }
 }
